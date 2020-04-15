@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+        android:background="#fff">
+
+    <LinearLayout
+        android:id="@+id/lay1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        tools:ignore="MissingConstraints">
+
+        <ImageView
+            android:id="@+id/nat"
+            android:layout_height="150dp"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/nat"
+            android:contentDescription="natgeo"
+
+            />
+        <ImageView
+            android:id="@+id/nat_eng"
+            android:layout_height="150dp"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/nat_eng"
+            android:contentDescription="natgeoeng"
+
+            />
+
+</LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lay2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        tools:ignore="MissingConstraints">
+
+        <ImageView
+            android:id="@+id/wild"
+            android:layout_height="150dp"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/wild"
+            android:contentDescription="wildd"
+
+            />
+        <ImageView
+            android:id="@+id/ppl"
+            android:layout_height="150dp"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/ppl"
+            android:contentDescription="civil"
+
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lay3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        tools:ignore="MissingConstraints">
+
+        <ImageView
+            android:id="@+id/docub"
+            android:layout_height="150dp"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/docu"
+            android:contentDescription="africa"
+           />
+
+        <ImageView
+            android:id="@+id/his"
+            android:layout_height="150dp"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/his"
+            android:contentDescription="usa"
+
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+    android:id="@+id/lay4"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+
+    tools:ignore="MissingConstraints">
+
+    <ImageView
+        android:id="@+id/cgtn"
+        android:layout_height="150dp"
+        android:layout_width="wrap_content"
+        android:layout_weight="1"
+        android:src="@drawable/cgtn"
+        android:contentDescription="china"
+
+        />
+
+
+</LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lay5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Requires: VPN FRANCE"
+            android:textStyle="bold"
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lay6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        tools:ignore="MissingConstraints">
+
+        <ImageView
+            android:id="@+id/arte"
+            android:layout_height="150dp"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/arte"
+            android:contentDescription="arte"
+            />
+
+        <ImageView
+            android:id="@+id/artede"
+            android:layout_height="150dp"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/arte_de"
+            android:contentDescription="artede"
+
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lay7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        tools:ignore="MissingConstraints">
+
+        <Button
+            android:id="@+id/insta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/emoji"
+            />
+
+  </LinearLayout>
+        <LinearLayout
+            android:id="@+id/lay8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            tools:ignore="MissingConstraints">
+
+            <Button
+                android:id="@+id/git"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/github"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

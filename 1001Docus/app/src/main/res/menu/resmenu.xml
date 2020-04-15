@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="HD 720p"
+        android:id="@+id/hd"
+        />
+    <item android:title="High 540p"
+        android:id="@+id/sd"/>
+    <item android:title="Med 360P"
+        android:id="@+id/md"/>
+    <item android:title="Low 270P"
+        android:id="@+id/ld"/>
+    <item android:title="Low 180P"
+        android:id="@+id/ldd"/>
+</menu>
