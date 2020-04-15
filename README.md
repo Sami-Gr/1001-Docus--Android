@@ -8,7 +8,7 @@ Made for the 1001Tech community.
 
 
 ### Download link:
- https://drive.google.com/file/d/1M5vmC0P4Knf9SDWOfVIOqaZbSKrrspe4/view
+ http://www.mediafire.com/file/4up9uknx3yjcitu/1001_Docus_-android.apk/file
  
 ### Free Channels:
 
