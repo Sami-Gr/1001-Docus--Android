@@ -7,6 +7,9 @@ Made for the 1001Tech community.
 * Enjoy.
 
 
+### Download link:
+ https://drive.google.com/file/d/1M5vmC0P4Knf9SDWOfVIOqaZbSKrrspe4/view
+ 
 ### Free Channels:
 
  * Nat Geo English
